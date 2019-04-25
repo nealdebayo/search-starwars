@@ -1,0 +1,21 @@
+.pagination-div{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 42px;
+	.page-btns{
+		color: #000;
+		/*background-color: #212121;*/
+		background: #fff;
+		padding: 10px;
+		border: 1px solid #000;
+		border-radius: 2px;
+		transition: 0.5s all;
+		cursor: pointer;
+		&:hover{
+			background-color: #323232;
+		}
+	}
+	.page-numbers{
+		padding: 4px;
+	}
+}

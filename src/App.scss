@@ -1,0 +1,18 @@
+.App{
+	overflow-x: hidden;
+	font-family: "Titillium Web";
+	display: flex;
+	justify-content: center;
+	min-width: 320px;
+}
+
+.wrapper{
+	width: 65%;
+}
+@media screen and (max-width: 540px){
+	.wrapper {
+		width: 100%;
+	}
+}
+
+

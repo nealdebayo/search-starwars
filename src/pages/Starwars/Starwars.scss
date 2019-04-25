@@ -1,0 +1,37 @@
+.starwars{
+	padding: 4px;
+	padding-bottom: 40px;
+}
+
+.no-starwar{
+	display: flex;
+	align-items: flex-start;
+	.danger{
+		font-size: 80px;
+		padding: 20px;
+	}
+	.message{
+		font-size: 36px;
+		.extra{
+			font-size: 20px;
+			font-weight: 600;
+			text-transform: uppercase;
+			margin-top: -24px;
+		}
+	}
+
+}
+@media screen and (max-width: 540px){
+	.no-starwar{
+		.danger{
+			font-size: 60px;
+
+		}
+		.message{
+			font-size: 24px;
+			.extra{
+				font-size: 16px
+			}
+		}
+	}
+}
